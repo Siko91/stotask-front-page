@@ -1,0 +1,9 @@
+{
+  "bsvalias": "1.0",
+  "capabilities": {
+    "6745385c3fc0": false,
+    "pki": "http://gentle-dawn-45098.herokuapp.com/bsvalias/id/{alias}@{domain.tld}",
+    "paymentDestination": "http://gentle-dawn-45098.herokuapp.com/bsvalias/address/{alias}@{domain.tld}",
+    "a9f510c16bde": "http://gentle-dawn-45098.herokuapp.com/bsvalias/verifypubkey/{alias}@{domain.tld}/{pubkey}"
+  }
+}
