@@ -1,0 +1,59 @@
+[
+    {
+      "key": "<img src=\"{{task_url}}\" alt=\"Task\">",
+      "name": "Image",
+      "type": "Image"
+    },
+    { "key": "<p>{{task_url}}</p>", "name": "Text", "type": "Text" },
+    {
+      "key": "<iframe src=\"{{task_url}}\"></iframe>",
+      "name": "IFrame URL",
+      "type": "HTML"
+    },
+    {
+      "key": "<video><source src=\"{{task_url}}\" type=\"video/mp4\">Your browser does not support the video tag.</video>",
+      "name": "Video MP4",
+      "type": "Video"
+    },
+    {
+      "key": "<video><source src=\"{{task_url}}\" type=\"video/webm\">Your browser does not support the video tag.</video>",
+      "name": "Video WebM",
+      "type": "Video"
+    },
+    {
+      "key": "<video><source src=\"{{task_url}}\" type=\"video/ogg\">Your browser does not support the video tag.</video>",
+      "name": "Video OGG",
+      "type": "Video"
+    },
+    {
+      "key": "<iframe src=\"{{task_url}}\"></iframe>",
+      "name": "Video YouTube",
+      "type": "Video/HTML"
+    },
+    {
+      "key": "<audio controls><source src=\"{{task_url}}\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio>",
+      "name": "Audio MPEG",
+      "type": "Audio"
+    },
+    {
+      "key": "<audio controls><source src=\"{{task_url}}\" type=\"audio/wav\">Your browser does not support the audio element.</audio>",
+      "name": "Audio WAV",
+      "type": "Audio"
+    },
+    {
+      "key": "<audio controls><source src=\"{{task_url}}\" type=\"audio/ogg\">Your browser does not support the audio element.</audio>",
+      "name": "Audio OGG",
+      "type": "Audio"
+    },
+    {
+      "key": "<iframe src=\"https://www.google.com/maps/embed/v1/view?key=AIzaSyCLEdYTLFFED6ZkEbvCICUOlofklDBdplQ&center={{task_url}}&zoom=15\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+      "name": "Map Coordinates",
+      "type": "Map"
+    },
+    {
+      "key": "<iframe src=\"https://www.google.com/maps/embed/v1/streetview?key=AIzaSyCLEdYTLFFED6ZkEbvCICUOlofklDBdplQ&location={{task_url}}&heading=0&pitch=10&fov=35\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+      "name": "Map Coordinates (Street View)",
+      "type": "Map"
+    },
+    { "key": "custom", "name": "Custom...", "type":"Custom" }
+  ]
